@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <!-- Shown in the list of categories in the main activity. [CHAR LIMIT=20]  -->
+    <string name="category_sites">sites</string>
+
+    <!-- Shown in PlaceFragment when opening hours aren't available. [CHAR LIMIT=NONE] -->
+    <string name="no_opening_hours">always open</string>
+
+    <!-- Description of the TV tower of Berlin shown in PlaceFragment. [CHAR LIMIT=NONE] -->
+    <string name="description_fernsehturm">
+        Der Berliner Fernsehturm ist mit 368 Metern das höchste Bauwerk Deutschlands sowie der vierthöchste Fernsehturm Europas. Der Fernsehturm befindet sich im Park am Fernsehturm im Berliner Ortsteil Mitte. Er war im Jahr der Fertigstellung 1969 der zweithöchste Fernsehturm der Welt und zählt mit über einer Million Besuchern jährlich[2] zu den zehn beliebtesten Sehenswürdigkeiten in Deutschland.
+    </string>
+
+    <!-- Description of the Brandenburger Tor shown in PlaceFragment. [CHAR LIMIT=NONE] -->
+    <string name="description_brandenburger_tor">
+        Das Brandenburger Tor in Berlin ist ein frühklassizistisches Triumphtor, das an der Westflanke des quadratischen Pariser Platzes im Berliner Ortsteil Mitte steht. Es wurde als Abschluss der zentralen Prachtstraße der Dorotheenstadt, des Boulevards Unter den Linden, in den Jahren von 1789[1] bis 1793[2] auf Anweisung des preußischen Königs Friedrich Wilhelm II. nach Entwürfen von Carl Gotthard Langhans errichtet. Die das Tor krönende Skulptur der Quadriga ist ein Werk nach dem Entwurf des Bildhauers Johann Gottfried Schadow. Westlich des Brandenburger Tores befinden sich die ausgedehnten Grünflächen des Großen Tiergartens, die in gradliniger Verlängerung der Straße Unter den Linden von der Straße des 17. Juni durchquert werden. Die Platzfläche unmittelbar westlich des Tores trägt den Namen Platz des 18. März.
+    </string>
+
+    <!-- Description of the Siegessäule shown in PlaceFragment. [CHAR LIMIT=NONE] -->
+    <string name="description_goldelse">
+        Die Siegessäule auf dem Großen Stern im Großen Tiergarten gehört zu den wichtigsten Sehenswürdigkeiten Berlins[2] und den bedeutendsten Nationaldenkmälern Deutschlands. In den Jahren 1864–1873 von Heinrich Strack zur Erinnerung an die Einigungskriege ursprünglich auf dem Königsplatz erbaut, wurde sie 1938–1939 zusammen mit den Denkmälern Bismarcks, Roons und Moltkes an den heutigen Standort versetzt. Die bekrönende Viktoria von Friedrich Drake wird im Berliner Volksmund „Goldelse“ genannt.
+    </string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Applied on TextViews in place details fragment -->
+    <style name="PlaceDetailTextView">
+        <item name="android:paddingLeft">@dimen/horizontal_margin</item>
+        <item name="android:paddingBottom">@dimen/vertical_margin</item>
+    </style>
+
+</resources>

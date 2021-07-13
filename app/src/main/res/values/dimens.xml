@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of a list item in a list view. -->
+    <dimen name="list_item_height">88dp</dimen>
+
+    <!-- space used for horizontal padding -->
+    <dimen name="horizontal_margin">16dp</dimen>
+
+    <!-- space used for verticl padding between TextViews -->
+    <dimen name="vertical_margin">8dp</dimen>
+</resources>

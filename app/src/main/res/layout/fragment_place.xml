@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlaceFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEST" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/place_detail_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/place_detail_name"
+                style="@style/PlaceDetailTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/place_detail_address"
+                android:textStyle="bold"
+                tools:text="name" />
+
+            <TextView
+                android:id="@+id/place_detail_address"
+                style="@style/PlaceDetailTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                tools:text="address" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/place_detail_opening_hours"
+            style="@style/PlaceDetailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="opening hours" />
+
+        <TextView
+            android:id="@+id/place_detail_transport"
+            style="@style/PlaceDetailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="transport" />
+
+        <TextView
+            android:id="@+id/parent_detail_description"
+            style="@style/PlaceDetailTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:text="description" />
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>
